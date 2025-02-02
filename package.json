@@ -1,0 +1,37 @@
+{
+  "name": "investors-trading-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/bot.ts",
+    "dev": "nodemon --exec ts-node src/bot.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ton/core": "^0.59.1",
+    "@ton/ton": "^15.1.0",
+    "axios": "^1.7.9",
+    "base64-js": "^1.5.1",
+    "dotenv": "^16.4.7",
+    "mongoose": "^8.9.5",
+    "node-cron": "^3.0.3",
+    "node-persist": "^4.0.4",
+    "node-telegram-bot-api": "^0.66.0"
+  },
+  "devDependencies": {
+    "@solana/web3.js": "^1.98.0",
+    "@types/bs58": "^4.0.4",
+    "@types/mongoose": "^5.11.97",
+    "@types/node": "^22.10.10",
+    "@types/node-cron": "^3.0.11",
+    "@types/node-persist": "^3.1.8",
+    "@types/node-telegram-bot-api": "^0.64.7",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
